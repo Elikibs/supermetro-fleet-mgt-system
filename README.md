@@ -1,4 +1,4 @@
-# SUPER METRO BUS MANAGEMENT SYSTEM
+# SUPER METRO FLEET MANAGEMENT SYSTEM
 
 [![license](https://img.shields.io/badge/license-%20MIT%20-green.svg)](./LICENSE)
 ![python version](https://img.shields.io/badge/python-3.10|3.11-blue.svg)
