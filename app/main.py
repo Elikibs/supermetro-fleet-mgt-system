@@ -23,7 +23,7 @@ wh = Fore.WHITE
 br = Style.BRIGHT
 fr = Fore.RESET
 
-smbms= '< SUPER METRO BUS MANAGEMENT SYSTEM >'
+smbms= '< SUPER METRO FLEET MANAGEMENT SYSTEM >'
 print(cyan + br + f'\n{smbms:-^50}\n')
 
 
