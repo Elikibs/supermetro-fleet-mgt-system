@@ -13,7 +13,7 @@
 
 ## Introduction
 
-The Super Metro Bus Management System is a Command-Line Interface (CLI) application built using Python. It is designed to manage and track matatus (minibuses) operated by Super Metro, a Matatu Sacco in Kenya. This tool empowers users to effortlessly handle various aspects of Matatu Sacco management, including member and fleet information, routes, and financial analysis, providing a comprehensive solution for Sacco owners.
+The Super Metro Fleet Management System is a Command-Line Interface (CLI) application built using Python. It is designed to manage and track matatus (minibuses) operated by Super Metro, a Matatu Sacco in Kenya. This tool empowers users to effortlessly handle various aspects of Matatu Sacco management, including member and fleet information, routes, and financial analysis, providing a comprehensive solution for Sacco owners.
 
 ---
 
@@ -124,6 +124,6 @@ cd app
 
 ## Author & License
 
-Authored by [Arshavine Waema](https://github.com/ArshavineRoy).
+Authored by [Elisha Kibet](https://github.com/Elikibs).
 
 Licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
