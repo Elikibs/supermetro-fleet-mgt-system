@@ -250,7 +250,7 @@ def find_matatu_by_driver_name(driver_name):
     else:
         click.echo(error(f"No matatu found with driver name: {driver_name} \n"))
 
-# delete member 
+# delete member.
 @click.command()
 @click.option('--id', prompt='Member Id', help='Id of the member to delete. This is not the national id.', callback=member_id_exists)
 def delete_member(id):
