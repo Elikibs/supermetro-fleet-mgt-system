@@ -284,7 +284,7 @@ def delete_matatu(id):
 
     click.echo(green(f"Matatu id {id} deleted successfully! \n"))
 
-# matatu owner
+# matatu owner.
 @click.command()
 @click.option('--number_plate', prompt='Number plate', help='Number plate of the matatu to search for', callback=validate_number_plate)
 def owner_of_matatu(number_plate):
