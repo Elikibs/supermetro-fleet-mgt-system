@@ -403,7 +403,7 @@ def all_matatu_financials(filename):
     
 
 
-# Add commands to the group
+# Add commands to the group.
 my_commands.add_command(add_member)
 my_commands.add_command(add_route)
 my_commands.add_command(add_matatu)
