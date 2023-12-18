@@ -261,7 +261,7 @@ def delete_member(id):
 
     click.echo(green(f"Member deleted successfully! \n"))
 
-# delete route
+# delete route.
 @click.command()
 @click.option('--id', prompt='Route Id', help='Id of the route to delete.', callback=route_id_exists)
 def delete_route(id):
