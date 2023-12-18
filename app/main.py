@@ -353,7 +353,7 @@ def matatus_owned_by(name):
         click.echo(error(f"No matatus found for {name} \n"))
 
 
-# Generates a CSV file with estimated monthly gross amounts for all matatus
+# Generates a CSV file with estimated monthly gross amounts for all matatus.
 
 @click.command()
 @click.option('--filename', prompt='Output Filename', help='Name of the output .csv file.')
