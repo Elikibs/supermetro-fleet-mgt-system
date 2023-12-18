@@ -145,7 +145,7 @@ def matatu_id_exists(ctx, param, value):
 
 # LOGIC
 
-# Add a new member to the database.
+# Add a new member to the database
 @click.command()
 @click.option('--name', prompt='Name', help="Member's full name", callback=validate_name)
 @click.option('--national_id', prompt='National ID', help='National ID', callback=validate_id)
