@@ -214,7 +214,7 @@ def find_member_by_name(name):
     else:
         click.echo(error(f"No member found with the name: {name} \n"))
 
-# search routes
+# search routes.
 @click.command()
 @click.option('--name', prompt='Name', help='Name of the route to search for')
 def find_route_by_name(name):
