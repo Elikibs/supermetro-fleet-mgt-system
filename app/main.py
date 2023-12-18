@@ -273,7 +273,7 @@ def delete_route(id):
     click.echo(green(f"Route deleted successfully! \n"))
 
 
-# delete matatu
+# delete matatu.
 @click.command()
 @click.option('--id', prompt='Route Id', help='Id of the matatu to delete.', callback=matatu_id_exists)
 def delete_matatu(id):
