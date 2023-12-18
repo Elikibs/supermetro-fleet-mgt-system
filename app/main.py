@@ -175,7 +175,7 @@ def add_route(name, price):
     click.echo(f"Added member with ID: {new_route.id}")
 
 
-# Add a new matatu to the fleet.
+# Add a new matatu to the fleet
 @click.command()
 @click.option('--owner', prompt='Owner Full Name', help='Owner name - must be an existing member', callback=member_exists)
 @click.option('--route', prompt='Route Name', help='Route name - must be an existing member', callback=route_exists)
