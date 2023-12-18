@@ -161,7 +161,7 @@ def add_member(name, national_id, location, phone):
     click.echo(f"Added member with ID: {new_member.id}")
 
 
-# Add a new route to the database.
+# Add a new route to the database
 @click.command()
 @click.option('--name', prompt='Name', help="Route name", callback=validate_route)
 @click.option('--price', prompt='Price', help="Route price", callback=validate_price)
