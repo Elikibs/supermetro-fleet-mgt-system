@@ -227,7 +227,7 @@ def find_route_by_name(name):
         click.echo(error(f"No route found with the name: {name} \n"))
 
 
-# search matatus
+# search matatus.
 @click.command()
 @click.option('--number_plate', prompt='Number plate', help='Number plate of the matatu to search for')
 def find_matatu_by_number_plate(number_plate):
