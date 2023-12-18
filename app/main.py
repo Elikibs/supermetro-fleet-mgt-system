@@ -299,7 +299,7 @@ def owner_of_matatu(number_plate):
         click.echo(error(f"No matatu found with number plate: {number_plate} \n"))
 
 
-# Generates a CSV file with all matatus plying a certain route
+# Generates a CSV file with all matatus plying a certain route.
 
 @click.command()
 @click.option('--route_id', prompt='Route Id', help='Id of the route to search.', callback=route_id_exists)
