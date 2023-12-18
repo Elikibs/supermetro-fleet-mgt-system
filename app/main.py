@@ -202,7 +202,7 @@ def add_matatu(owner, route, driver_name, driver_contact, number_plate, capacity
 
     click.echo(f"Added matatu with ID: {new_matatu.id}")
 
-# search members
+# search members.
 @click.command()
 @click.option('--name', prompt='Name', help='Name of the member to search for')
 def find_member_by_name(name):
