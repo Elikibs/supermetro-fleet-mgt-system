@@ -46,7 +46,7 @@ def yellow(message):
     return f"{yl}{message}{cyan}\n"
 
 
-# VALIDATORS
+# VALIDATORS.
 
 def validate_id(ctx, param, value):
     if not value.isdigit() or len(value) != 8:
