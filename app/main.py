@@ -337,7 +337,7 @@ def matatus_on_route(route_id, filename):
     else:
         click.echo(error("Route id not found.\n"))
 
-# All matatus owned by a member
+# All matatus owned by a member.
 @click.command()
 @click.option('--name', prompt='Name', help='Name of the member to search for', callback=member_exists)
 def matatus_owned_by(name):
